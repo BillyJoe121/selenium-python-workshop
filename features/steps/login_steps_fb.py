@@ -11,7 +11,7 @@ def step_given_user_on_login_page(context):
 
 @when('the user logs in with valid data')
 def step_when_user_logs_in_valid(context):
-    context.login_page.login("1143878894", "IcesiAccess2024022")
+    context.login_page.login("micedula", "micontraseña")
 
 @then('the user should be redirected to the dashboard')
 def step_then_dashboard_page(context):
